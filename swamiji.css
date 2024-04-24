@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.bio-container,
+.thoughts-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.image{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    padding: 10%;
+}
+
+h2 {
+    color: rgb(174, 78, 43);
+}
+
+p {
+    line-height: 1.6;
+}
+
+#thoughts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#thoughts-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
